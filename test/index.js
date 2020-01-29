@@ -1,7 +1,8 @@
-const assert = require('assert');
+const assert = require('assert')
+const calc = require('../src/index.js')
 
 try {
-    assert.equal(1,2,'No son iguales');
+    assert.equal(calc.result(),0,'El valor inicial no es cero')
 } catch (err) {
-    console.error(err.message);
+    console.error(err.message)
 }
