@@ -42,3 +42,9 @@ Poner a prueba un codigo para verificar si cumple con los requerimientos
 * TEstear todo lo necesario, incluso aunque parezca obvio
 
 En *npm.com* en la pagina de cada paquete "coverage" muestra lo referente al testing
+
+Primero codear el unit test y después codear la función per sé
+
+Siempre se acompaña el test en paralelo, con el nombre del archivo çon la extensión .test antes de la extensión propiamente dicha.
+
+ `npx mocha src/**/*.test.js` con esto se corren los testeos con Mocha y Chai
