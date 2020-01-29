@@ -48,3 +48,5 @@ Primero codear el unit test y después codear la función per sé
 Siempre se acompaña el test en paralelo, con el nombre del archivo çon la extensión .test antes de la extensión propiamente dicha.
 
  `npx mocha src/**/*.test.js` con esto se corren los testeos con Mocha y Chai
+
+  [Fundamentos de Testing](https://bit.ly/face2faceEnero)
